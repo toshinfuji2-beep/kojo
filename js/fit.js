@@ -1,0 +1,1 @@
+function s(h){let a=Math.round(Math.min(h.ih,h.vh||h.ih));if(h.sa&&h.ios&&h.sw&&h.sh){const i=h.land?Math.min(h.sw,h.sh):Math.max(h.sw,h.sh);(a>i+1||h.land&&!h.kb&&a<i-24)&&(a=i)}return a}export{s as fitCalc};
